@@ -1,0 +1,46 @@
+.loTop {
+  font-size: 180%;
+  margin-left: 2%; }
+
+nav {
+  background-color: #2980B9; }
+  nav a:link, nav a:active, nav a:visited {
+    font-style: none; }
+
+.loRight {
+  background-color: #409ad5; }
+
+#titleFront {
+  color: white;
+  margin-top: 10%;
+  text-shadow: 1px 1px 1px black; }
+
+#topDiv {
+  background: url("../images/background1.jpg");
+  height: 200%; }
+  #topDiv .icon {
+    margin-top: 10%; }
+    #topDiv .icon i {
+      color: white;
+      opacity: 0.5; }
+
+.features {
+  margin-top: 80%; }
+  .features i, .features p {
+    color: #f44336;
+    text-shadow: 1px 1px 1px black; }
+  .features p {
+    font-size: 110%; }
+
+.signUp {
+  background-color: #2980B9; }
+
+.title {
+  color: white;
+  text-shadow: 1px 1px 1px black; }
+  .title p {
+    font-size: 110%; }
+  .title p, .title a {
+    margin-top: 15%; }
+
+/*# sourceMappingURL=css.css.map */

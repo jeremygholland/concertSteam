@@ -1,0 +1,62 @@
+$primary-color: #2980B9;
+$secondary-color:#f44336;
+
+.loTop {
+	font-size: 180%;
+	margin-left: 2%;
+}
+nav{
+	background-color: $primary-color;
+	a:link, a:active, a:visited{
+		font-style: none;
+	}
+}
+.loRight{
+	background-color: lighten($primary-color, 10%);
+}
+
+#titleFront{
+	color: white;
+	margin-top: 10%;
+	text-shadow: 1px 1px 1px black;
+}
+
+
+  #topDiv{
+	background: url("../images/background1.jpg") ;
+	height: 200%;
+	.icon{
+		margin-top: 10%;
+		i{
+			color: white;
+			opacity: .5
+		}
+	}
+}
+
+.features{
+	margin-top: 80%;
+	i, p{
+		color: $secondary-color;
+		text-shadow: 1px 1px 1px black;
+	}
+	p{
+		font-size: 110%;
+	}
+}
+
+.signUp{
+	background-color: $primary-color;
+}
+
+.title{
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	p{
+		font-size: 110%;
+	}
+	p, a{
+		margin-top: 15%;
+	}
+
+}
