@@ -76,12 +76,18 @@ nav{
 	height: 15%;
 }
 .footBot{
-	height: 30%;
+	height: 35%;
 	background-color: $primary-color;
 	color: lighten($primary-color, 50%)
 }
 .bottomStuff{
+	p{
+		margin-top: 5%;
+	}
 	height: 80%;
+	a{
+		margin-top: 5%;
+	}
 }
 
 .botContent{

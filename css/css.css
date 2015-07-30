@@ -59,12 +59,16 @@ nav {
   height: 15%; }
 
 .footBot {
-  height: 30%;
+  height: 35%;
   background-color: #2980B9;
   color: #e7f2fa; }
 
 .bottomStuff {
   height: 80%; }
+  .bottomStuff p {
+    margin-top: 5%; }
+  .bottomStuff a {
+    margin-top: 5%; }
 
 .botContent {
   height: 180%;
