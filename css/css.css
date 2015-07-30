@@ -58,13 +58,19 @@ nav {
 .footTop {
   height: 15%; }
 
-.footStuff {
-  position: fixed; }
+.footBot {
+  height: 30%;
+  background-color: #2980B9;
+  color: #e7f2fa; }
+
+.bottomStuff {
+  height: 80%; }
 
 .botContent {
   height: 180%;
-  position: absolute;
+  position: relative;
   overflow: hidden;
+  margin-bottom: -69.5%;
   color: #2980B9; }
   .botContent .cardClass {
     margin-top: 10%; }
@@ -78,9 +84,7 @@ nav {
     border-radius: 2em;
     color: #2980B9; }
   .botContent img {
-    height: 150%;
     opacity: .2;
-    overflow-x: hidden;
     position: absolute; }
 
 /*# sourceMappingURL=css.css.map */
