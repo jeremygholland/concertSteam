@@ -28,7 +28,7 @@ nav {
 .features {
   margin-top: 110%; }
   .features #bottom {
-    margin-bottom: 5%; }
+    margin-top: 100%; }
   .features i, .features p {
     color: #ebebeb;
     text-shadow: 1px 1px 1px black; }
@@ -49,7 +49,7 @@ nav {
   .title p, .title a {
     margin-top: 15%; }
 
-.foot {
+.foot, .footStuff {
   margin-top: 10%;
   background-color: #e7f2fa;
   color: #4d4d4d;
@@ -58,8 +58,11 @@ nav {
 .footTop {
   height: 15%; }
 
+.footStuff {
+  position: fixed; }
+
 .botContent {
-  height: 170%;
+  height: 180%;
   position: absolute;
   overflow: hidden;
   color: #2980B9; }
