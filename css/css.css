@@ -17,6 +17,7 @@ nav {
 
 #topDiv {
   background: url("../images/background1.jpg");
+  background-repeat: no-repeat;
   height: 200%; }
   #topDiv .icon {
     margin-top: 10%; }
@@ -25,14 +26,17 @@ nav {
       opacity: 0.5; }
 
 .features {
-  margin-top: 80%; }
+  margin-top: 110%; }
   .features i, .features p {
-    color: #f44336;
+    color: #ebebeb;
     text-shadow: 1px 1px 1px black; }
   .features p {
-    font-size: 110%; }
+    font-size: 130%; }
 
 .signUp {
+  background-color: #2980B9; }
+
+.signUp:active, .signUp:link, .signUp:hover, .signUp:visited {
   background-color: #2980B9; }
 
 .title {
@@ -42,5 +46,14 @@ nav {
     font-size: 110%; }
   .title p, .title a {
     margin-top: 15%; }
+
+.foot {
+  margin-top: 10%;
+  background-color: #e7f2fa;
+  color: #4d4d4d;
+  font-size: 140%; }
+
+.footTop {
+  height: 12%; }
 
 /*# sourceMappingURL=css.css.map */

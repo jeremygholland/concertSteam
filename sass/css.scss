@@ -24,6 +24,7 @@ nav{
 
   #topDiv{
 	background: url("../images/background1.jpg") ;
+	background-repeat: no-repeat;
 	height: 200%;
 	.icon{
 		margin-top: 10%;
@@ -35,17 +36,20 @@ nav{
 }
 
 .features{
-	margin-top: 80%;
+	margin-top: 110%;
 	i, p{
-		color: $secondary-color;
+		color: darken(white, 8%);
 		text-shadow: 1px 1px 1px black;
 	}
 	p{
-		font-size: 110%;
+		font-size: 130%;
 	}
 }
 
 .signUp{
+	background-color: $primary-color;
+}
+.signUp:active, .signUp:link, .signUp:hover, .signUp:visited{
 	background-color: $primary-color;
 }
 
@@ -58,5 +62,13 @@ nav{
 	p, a{
 		margin-top: 15%;
 	}
-
+}
+.foot{
+	margin-top: 10%;
+	background-color: lighten($primary-color, 50%);
+	color: lighten(black, 30%);
+	font-size: 140%;
+}
+.footTop{
+	height: 12%;
 }
