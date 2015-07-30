@@ -25,7 +25,7 @@ nav{
   #topDiv{
 	background: url("../images/background1.jpg") ;
 	background-repeat: no-repeat;
-	height: 200%;
+	height: 170%;
 	.icon{
 		margin-top: 10%;
 		i{
@@ -70,5 +70,11 @@ nav{
 	font-size: 140%;
 }
 .footTop{
-	height: 12%;
+	height: 15%;
+}
+.botContent{
+	height: 140%;
+	img{
+		opacity: .1;
+	}
 }

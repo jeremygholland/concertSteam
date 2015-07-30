@@ -18,7 +18,7 @@ nav {
 #topDiv {
   background: url("../images/background1.jpg");
   background-repeat: no-repeat;
-  height: 200%; }
+  height: 170%; }
   #topDiv .icon {
     margin-top: 10%; }
     #topDiv .icon i {
@@ -54,6 +54,11 @@ nav {
   font-size: 140%; }
 
 .footTop {
-  height: 12%; }
+  height: 15%; }
+
+.botContent {
+  height: 140%; }
+  .botContent img {
+    opacity: .1; }
 
 /*# sourceMappingURL=css.css.map */
