@@ -57,14 +57,18 @@ nav {
   height: 15%; }
 
 .botContent {
-  height: 140%; }
+  height: 140%;
+  color: #2980B9; }
+  .botContent .cardClass {
+    margin-top: 10%; }
+  .botContent h4 {
+    color: #2980B9; }
   .botContent .titleCard {
-    color: black; }
+    color: #2980B9; }
   .botContent .iconCard {
     background-color: #e7f2fa;
     padding: 5%;
     border-radius: 2em;
-    margin-bottom: 5%;
     color: #2980B9; }
   .botContent img {
     opacity: .1;
