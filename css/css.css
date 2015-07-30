@@ -58,7 +58,16 @@ nav {
 
 .botContent {
   height: 140%; }
+  .botContent .titleCard {
+    color: black; }
+  .botContent .iconCard {
+    background-color: #e7f2fa;
+    padding: 5%;
+    border-radius: 2em;
+    margin-bottom: 5%;
+    color: #2980B9; }
   .botContent img {
-    opacity: .1; }
+    opacity: .1;
+    position: absolute; }
 
 /*# sourceMappingURL=css.css.map */
