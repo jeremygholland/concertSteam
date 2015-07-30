@@ -71,7 +71,8 @@ nav {
     border-radius: 2em;
     color: #2980B9; }
   .botContent img {
-    opacity: .1;
+    height: 150%;
+    opacity: .2;
     position: absolute; }
 
 /*# sourceMappingURL=css.css.map */
