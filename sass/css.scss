@@ -37,6 +37,9 @@ nav{
 
 .features{
 	margin-top: 110%;
+	#bottom{
+		margin-bottom: 5%;
+	}
 	i, p{
 		color: darken(white, 8%);
 		text-shadow: 1px 1px 1px black;
@@ -72,7 +75,12 @@ nav{
 .footTop{
 	height: 15%;
 }
+
+
 .botContent{
+	height: 170%;
+	position: absolute;
+    overflow: hidden;
 	.cardClass{
 		margin-top: 10%;
 	}
@@ -92,6 +100,7 @@ nav{
 	img{
 		height:150%;
 		opacity: .2;
+		overflow-x: hidden;
 		position: absolute;
 	}
 }
