@@ -56,7 +56,7 @@ nav{
 		margin-top: 100%;
 	}
 	i, p{
-		color: darken(white, 8%);
+		color: #CCCCCC;
 		text-shadow: 1px 1px 1px black;
 	}
 	p{
@@ -66,6 +66,7 @@ nav{
 
 .signUp{
 	background-color: $primary-color;
+	color: #CCCCCC;
 }
 .signUp:active, .signUp:link, .signUp:hover, .signUp:visited{
 	background-color: $primary-color;
@@ -88,7 +89,11 @@ nav{
 }
 .footTop, {
 	height: 20%;
+	p{
+		margin-top: 5%;
+	}
 }
+
 .footBot{
 	color: white;
 	font-size: 140%;
@@ -102,6 +107,7 @@ nav{
 	margin-top: 5%;
 }
 .bottomStuff{
+	opacity: 1;
 	background-color: $primary-color;
 	display: -webkit-box;
   	display: -webkit-flex;
@@ -148,11 +154,6 @@ nav{
 		padding: 5%;
 		border-radius: 2em;
 		color: $primary-color;
-	}
-	img{
-		opacity: .2;
-		position: absolute;
-		height: 100%;
 	}
 }
 }

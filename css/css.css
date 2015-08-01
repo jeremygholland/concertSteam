@@ -46,13 +46,14 @@
     .features #bottom {
       margin-top: 100%; }
     .features i, .features p {
-      color: #ebebeb;
+      color: #CCCCCC;
       text-shadow: 1px 1px 1px black; }
     .features p {
       font-size: 130%; }
 
   .signUp {
-    background-color: #2980B9; }
+    background-color: #2980B9;
+    color: #CCCCCC; }
 
   .signUp:active, .signUp:link, .signUp:hover, .signUp:visited {
     background-color: #2980B9; }
@@ -72,6 +73,8 @@
 
   .footTop {
     height: 20%; }
+    .footTop p {
+      margin-top: 5%; }
 
   .footBot {
     color: white;
@@ -86,6 +89,7 @@
     margin-top: 5%; }
 
   .bottomStuff {
+    opacity: 1;
     background-color: #2980B9;
     display: -webkit-box;
     display: -webkit-flex;
@@ -126,10 +130,6 @@
       background-color: #e7f2fa;
       padding: 5%;
       border-radius: 2em;
-      color: #2980B9; }
-    .botContent img {
-      opacity: .2;
-      position: absolute;
-      height: 100%; } }
+      color: #2980B9; } }
 
 /*# sourceMappingURL=css.css.map */

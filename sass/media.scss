@@ -36,7 +36,8 @@ nav{
 
 
   #topDiv{
-	background: url("../images/background1.jpg") ;
+	background: url("../images/background1.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
 	display: -webkit-box;
   	display: -webkit-flex;
@@ -61,14 +62,16 @@ nav{
 		}
 	}
 }
-
+#textTry{
+	text-align: center;
+}
 .features{
 	margin-top: 10%;
 	#bottom{
 		margin-top: 100%;
 	}
 	i, p{
-		color: darken(white, 8%);
+		color: #CCCCCC;
 		text-shadow: 1px 1px 1px black;
 	}
 	p{
@@ -76,9 +79,6 @@ nav{
 	}
 }
 
-.signUp:active, .signUp:link, .signUp:hover, .signUp:visited{
-	background-color: $primary-color;
-}
 
 .title{
 	color: white;
@@ -98,11 +98,15 @@ nav{
 
 .footTop {
 	height: 30%;
-	margin-left: 10%;
+	p{
+		text-align: center;
+		padding-top: 6%;
+	}
 }
 .signUp{
 	font-size: 250%;
-	background-color: $primary-color;
+	color: #CCCCCC;
+	background-color: #206695;
 	border-radius: 2em;
 }
 .footBot{
@@ -111,6 +115,9 @@ nav{
 .botBut{
 	margin-bottom: 15%;
 	margin-top: 5%;
+}
+.signUp:active, .signUp:link, .signUp:hover, .signUp:visited{
+	background-color: $primary-color;
 }
 .bottomStuff{
 	background-color: $primary-color;
