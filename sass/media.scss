@@ -6,6 +6,7 @@ body{
 }
 .loTop {
 	font-size: 180%;
+	margin-left: 2%;
 }
 nav{
 	background-color: $primary-color;
@@ -25,7 +26,7 @@ nav{
 }
 
 #titleFront{
-	font-size: 400%;
+	font-size: 350%;
 	color: darken($primary-color, 20%);
 	margin-top: 15%;
 }
@@ -54,6 +55,9 @@ nav{
 		i{
 			color: white;
 			opacity: .5
+		}
+		i:hover{
+			opacity: .75;
 		}
 	}
 }
@@ -163,6 +167,6 @@ nav{
 	img{
 		opacity: .2;
 		position: absolute;
-		height: 75%
+		height: 100%
 	}
 }

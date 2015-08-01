@@ -2,7 +2,8 @@ body {
   width: 100vw; }
 
 .loTop {
-  font-size: 180%; }
+  font-size: 180%;
+  margin-left: 2%; }
 
 nav {
   background-color: #2980B9; }
@@ -19,7 +20,7 @@ nav {
     font-size: 120%; }
 
 #titleFront {
-  font-size: 400%;
+  font-size: 350%;
   color: #164666;
   margin-top: 15%; }
 
@@ -46,6 +47,8 @@ nav {
     #topDiv .icon i {
       color: white;
       opacity: 0.5; }
+    #topDiv .icon i:hover {
+      opacity: .75; }
 
 .features {
   margin-top: 10%; }
@@ -137,6 +140,6 @@ nav {
   .botContent img {
     opacity: .2;
     position: absolute;
-    height: 75%; }
+    height: 100%; }
 
 /*# sourceMappingURL=media.css.map */

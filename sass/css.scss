@@ -19,9 +19,12 @@ nav{
 #titleFront{
 	color: white;
 	margin-top: 10%;
+	font-size: 250%;
 	text-shadow: 1px 1px 1px black;
 }
-
+#subFront{
+	font-size: 110%;
+}
 
   #topDiv{
 	background: url("../images/background1.jpg") ;
@@ -79,7 +82,6 @@ nav{
 	}
 }
 .foot, .footStuff{
-	margin-top: 10%;
 	background-color: $primary-color;
 	color: white;
 	font-size: 140%;
@@ -150,18 +152,7 @@ nav{
 	img{
 		opacity: .2;
 		position: absolute;
-		display: -webkit-box;
-  		display: -webkit-flex;
-  		display: -moz-box;
-  		display: -ms-flexbox;
-  		display: flex;
-		-webkit-box-orient: vertical;
-  		-webkit-box-direction: normal;
-  		-webkit-flex-direction: column;
-  		-moz-box-orient: vertical;
-  		-moz-box-direction: normal;
-  		-ms-flex-direction: column;
-  		flex-direction: column;
+		height: 100%;
 	}
 }
 }
