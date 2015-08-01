@@ -52,29 +52,34 @@ nav {
 
 .foot, .footStuff {
   margin-top: 10%;
-  background-color: #e7f2fa;
-  color: #4d4d4d;
+  background-color: #2980B9;
+  color: white;
   font-size: 140%; }
 
 .footTop {
-  height: 15%; }
+  height: 20%; }
 
 .footBot {
-  color: #4d4d4d;
+  color: white;
   font-size: 140%;
+  margin-top: 10%; }
+
+.signUp {
+  font-size: 100%; }
+
+.botBut {
+  margin-bottom: 15%;
   margin-top: 5%; }
 
 .bottomStuff {
-  display: flex;
-  flex-direction: column;
-  z-index: 20;
-  background-color: #2980B9; }
+  background-color: #2980B9;
+  display: flex; }
 
 .botContent {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-bottom: -69%;
   color: #2980B9; }
   .botContent .cardClass {
     margin-top: 10%; }
@@ -90,7 +95,6 @@ nav {
   .botContent img {
     opacity: .2;
     position: absolute;
-    display: flex;
-    flex-direction: column; }
+    display: flex; }
 
 /*# sourceMappingURL=css.css.map */

@@ -1,6 +1,7 @@
 $primary-color: #2980B9;
 $secondary-color:#f44336;
 
+
 .loTop {
 	font-size: 180%;
 	margin-left: 2%;
@@ -69,31 +70,36 @@ nav{
 }
 .foot, .footStuff{
 	margin-top: 10%;
-	background-color: lighten($primary-color, 50%);
-	color: lighten(black, 30%);
+	background-color: $primary-color;
+	color: white;
 	font-size: 140%;
 }
 .footTop, {
-	height: 15%;
+	height: 20%;
 }
 .footBot{
-	color: lighten(black, 30%);
+	color: white;
 	font-size: 140%;
+	margin-top: 10%;
+}
+.signUp{
+	font-size: 100%;
+}
+.botBut{
+	margin-bottom: 15%;
 	margin-top: 5%;
 }
 .bottomStuff{
-	display: flex;
-	flex-direction: column;
-	z-index: 20;
 	background-color: $primary-color;
+	display: flex;
 
 }
 
 .botContent{
+	overflow: hidden;
 	display: flex;
 	flex-direction: column;
 	position: relative;
-    margin-bottom: -69%;
 	.cardClass{
 		margin-top: 10%;
 	}
@@ -114,6 +120,5 @@ nav{
 		opacity: .2;
 		position: absolute;
 		display: flex;
-		flex-direction: column;
 	}
 }
