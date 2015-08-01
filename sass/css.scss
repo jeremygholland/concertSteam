@@ -26,8 +26,18 @@ nav{
   #topDiv{
 	background: url("../images/background1.jpg") ;
 	background-repeat: no-repeat;
-	display: flex;
-	flex-direction: column;
+	display: -webkit-box;
+  	display: -webkit-flex;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: flex;
+	-webkit-box-orient: vertical;
+  	-webkit-box-direction: normal;
+  	-webkit-flex-direction: column;
+  	-moz-box-orient: vertical;
+  	-moz-box-direction: normal;
+  	-ms-flex-direction: column;
+  	flex-direction: column;
 	.icon{
 		margin-top: 10%;
 		i{
@@ -91,14 +101,35 @@ nav{
 }
 .bottomStuff{
 	background-color: $primary-color;
-	display: flex;
+	display: -webkit-box;
+  	display: -webkit-flex;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: flex;
+	-webkit-box-orient: vertical;
+  	-webkit-box-direction: normal;
+  	-webkit-flex-direction: column;
+  	-moz-box-orient: vertical;
+  	-moz-box-direction: normal;
+  	-ms-flex-direction: column;
+  	flex-direction: column;
 
 }
 
 .botContent{
 	overflow: hidden;
-	display: flex;
-	flex-direction: column;
+	display: -webkit-box;
+  	display: -webkit-flex;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: flex;
+	-webkit-box-orient: vertical;
+  	-webkit-box-direction: normal;
+  	-webkit-flex-direction: column;
+  	-moz-box-orient: vertical;
+  	-moz-box-direction: normal;
+  	-ms-flex-direction: column;
+  	flex-direction: column;
 	position: relative;
 	.cardClass{
 		margin-top: 10%;
@@ -119,6 +150,17 @@ nav{
 	img{
 		opacity: .2;
 		position: absolute;
-		display: flex;
+		display: -webkit-box;
+  		display: -webkit-flex;
+  		display: -moz-box;
+  		display: -ms-flexbox;
+  		display: flex;
+		-webkit-box-orient: vertical;
+  		-webkit-box-direction: normal;
+  		-webkit-flex-direction: column;
+  		-moz-box-orient: vertical;
+  		-moz-box-direction: normal;
+  		-ms-flex-direction: column;
+  		flex-direction: column;
 	}
 }
