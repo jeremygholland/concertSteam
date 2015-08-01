@@ -18,7 +18,8 @@ nav {
 #topDiv {
   background: url("../images/background1.jpg");
   background-repeat: no-repeat;
-  height: 170%; }
+  display: flex;
+  flex-direction: column; }
   #topDiv .icon {
     margin-top: 10%; }
     #topDiv .icon i {
@@ -59,22 +60,21 @@ nav {
   height: 15%; }
 
 .footBot {
-  height: 35%;
-  background-color: #2980B9;
-  color: #e7f2fa; }
+  color: #4d4d4d;
+  font-size: 140%;
+  margin-top: 5%; }
 
 .bottomStuff {
-  height: 80%; }
-  .bottomStuff p {
-    margin-top: 5%; }
-  .bottomStuff a {
-    margin-top: 5%; }
+  display: flex;
+  flex-direction: column;
+  z-index: 20;
+  background-color: #2980B9; }
 
 .botContent {
-  height: 180%;
+  display: flex;
+  flex-direction: column;
   position: relative;
-  overflow: hidden;
-  margin-bottom: -69.5%;
+  margin-bottom: -69%;
   color: #2980B9; }
   .botContent .cardClass {
     margin-top: 10%; }
@@ -89,6 +89,8 @@ nav {
     color: #2980B9; }
   .botContent img {
     opacity: .2;
-    position: absolute; }
+    position: absolute;
+    display: flex;
+    flex-direction: column; }
 
 /*# sourceMappingURL=css.css.map */

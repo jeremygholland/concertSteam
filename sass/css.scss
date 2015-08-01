@@ -25,7 +25,8 @@ nav{
   #topDiv{
 	background: url("../images/background1.jpg") ;
 	background-repeat: no-repeat;
-	height: 170%;
+	display: flex;
+	flex-direction: column;
 	.icon{
 		margin-top: 10%;
 		i{
@@ -76,25 +77,23 @@ nav{
 	height: 15%;
 }
 .footBot{
-	height: 35%;
-	background-color: $primary-color;
-	color: lighten($primary-color, 50%)
+	color: lighten(black, 30%);
+	font-size: 140%;
+	margin-top: 5%;
 }
 .bottomStuff{
-	p{
-		margin-top: 5%;
-	}
-	height: 80%;
-	a{
-		margin-top: 5%;
-	}
+	display: flex;
+	flex-direction: column;
+	z-index: 20;
+	background-color: $primary-color;
+
 }
 
 .botContent{
-	height: 180%;
+	display: flex;
+	flex-direction: column;
 	position: relative;
-    overflow: hidden;
-    margin-bottom: -69.5%;
+    margin-bottom: -69%;
 	.cardClass{
 		margin-top: 10%;
 	}
@@ -114,5 +113,7 @@ nav{
 	img{
 		opacity: .2;
 		position: absolute;
+		display: flex;
+		flex-direction: column;
 	}
 }
