@@ -72,10 +72,6 @@ nav{
 	}
 }
 
-.signUp{
-	background-color: $primary-color;
-	font-size: 200%;
-}
 .signUp:active, .signUp:link, .signUp:hover, .signUp:visited{
 	background-color: $primary-color;
 }
@@ -96,12 +92,17 @@ nav{
 	font-size: 200%;
 }
 
-.footTop, {
+.footTop {
 	height: 30%;
 	margin-left: 10%;
 }
 .signUp{
-	font-size: 100%;
+	font-size: 250%;
+	background-color: $primary-color;
+	border-radius: 2em;
+}
+.footBot{
+	margin-top: 20%;
 }
 .botBut{
 	margin-bottom: 15%;
@@ -141,6 +142,9 @@ nav{
 	position: relative;
 	.cardClass{
 		margin-top: 10%;
+		p{
+			font-size: 150%;
+		}
 	}
 	color: $primary-color; 
 	h4{
@@ -148,6 +152,7 @@ nav{
 	}
 	.titleCard{
 		color: $primary-color;
+		font-size: 250%;
 	}
 	.iconCard{
 		background-color: lighten($primary-color, 50%);
@@ -158,6 +163,6 @@ nav{
 	img{
 		opacity: .2;
 		position: absolute;
-		height: 82.4%
+		height: 75%
 	}
 }

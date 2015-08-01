@@ -57,10 +57,6 @@ nav {
   .features p {
     font-size: 200%; }
 
-.signUp {
-  background-color: #2980B9;
-  font-size: 200%; }
-
 .signUp:active, .signUp:link, .signUp:hover, .signUp:visited {
   background-color: #2980B9; }
 
@@ -82,7 +78,12 @@ nav {
   margin-left: 10%; }
 
 .signUp {
-  font-size: 100%; }
+  font-size: 250%;
+  background-color: #2980B9;
+  border-radius: 2em; }
+
+.footBot {
+  margin-top: 20%; }
 
 .botBut {
   margin-bottom: 15%;
@@ -121,10 +122,13 @@ nav {
   color: #2980B9; }
   .botContent .cardClass {
     margin-top: 10%; }
+    .botContent .cardClass p {
+      font-size: 150%; }
   .botContent h4 {
     color: #2980B9; }
   .botContent .titleCard {
-    color: #2980B9; }
+    color: #2980B9;
+    font-size: 250%; }
   .botContent .iconCard {
     background-color: #e7f2fa;
     padding: 5%;
@@ -133,6 +137,6 @@ nav {
   .botContent img {
     opacity: .2;
     position: absolute;
-    height: 82.4%; }
+    height: 75%; }
 
 /*# sourceMappingURL=media.css.map */
