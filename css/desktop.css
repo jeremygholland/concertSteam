@@ -3,7 +3,7 @@
     width: 100vw; }
 
   .loTop {
-    font-size: 400%;
+    font-size: 350%;
     margin-left: 2%; }
 
   nav {
@@ -18,15 +18,15 @@
     background-color: #409ad5;
     width: 20%; }
     .loRight a {
-      font-size: 300%; }
+      font-size: 250%; }
 
   #titleFront {
-    font-size: 500%;
+    font-size: 450%;
     color: #164666;
     margin-top: 15%; }
 
   #subFront {
-    font-size: 300%;
+    font-size: 250%;
     text-shadow: 2px 2px 2px black; }
 
   #topDiv {
@@ -65,7 +65,7 @@
     .features i, .features p {
       color: white;
       text-shadow: 1px 1px 1px black;
-      font-size: 300%; }
+      font-size: 250%; }
     .features i {
       text-shadow: 2px 2px 2px black; }
 
@@ -87,19 +87,19 @@
     .footTop p {
       text-align: center;
       padding-top: 6%;
-      font-size: 200%;
+      font-size: 150%;
       margin-left: 10%;
       margin-right: 10%; }
 
   .signUp {
-    font-size: 400%;
+    font-size: 300%;
     color: white;
     background-color: #206695;
     border-radius: 2em; }
 
   .footBot {
     margin-top: 10%;
-    font-size: 400%;
+    font-size: 300%;
     margin-left: 10%;
     margin-right: 10%; }
 
