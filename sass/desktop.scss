@@ -1,13 +1,11 @@
 $primary-color: #2980B9;
 $secondary-color:#f44336;
-@media screen and (max-width: 1900px) {
-
 
 body{
 	width: 100vw;
 }
 .loTop {
-	font-size: 180%;
+	font-size: 400%;
 	margin-left: 2%;
 }
 nav{
@@ -23,17 +21,18 @@ nav{
 	background-color: lighten($primary-color, 10%);
 	width: 20%;
 	a{
-		font-size: 120%;
+		font-size: 300%;
 	}
 }
 
 #titleFront{
-	font-size: 350%;
+	font-size: 500%;
 	color: darken($primary-color, 20%);
 	margin-top: 15%;
 }
 #subFront{
-	font-size: 150%;
+	font-size: 300%;
+	text-shadow: 2px 2px 2px black;
 }
 
 
@@ -56,11 +55,13 @@ nav{
 	.icon{
 		margin-top: 10%;
 		i{
+			font-size: 600%;
+			text-shadow: 2px 2px 2px black;
 			color: white;
-			opacity: .5
+			opacity: .75
 		}
 		i:hover{
-			opacity: .75;
+			opacity: 1;
 		}
 	}
 }
@@ -68,16 +69,17 @@ nav{
 	text-align: center;
 }
 .features{
-	margin-top: 10%;
+	margin-top: 30%;
 	#bottom{
 		margin-top: 100%;
 	}
 	i, p{
-		color: #CCCCCC;
+		color: white;
 		text-shadow: 1px 1px 1px black;
+		font-size: 300%;
 	}
-	p{
-		font-size: 200%;
+	i{
+		text-shadow: 2px 2px 2px black;
 	}
 }
 
@@ -103,16 +105,22 @@ nav{
 	p{
 		text-align: center;
 		padding-top: 6%;
+		font-size: 200%;
+		margin-left: 10%;
+		margin-right: 10%;
 	}
 }
 .signUp{
-	font-size: 250%;
+	font-size: 400%;
 	color: white;
 	background-color: #206695;
 	border-radius: 2em;
 }
 .footBot{
-	margin-top: 20%;
+	margin-top: 10%;
+	font-size: 400%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 .botBut{
 	margin-bottom: 15%;
@@ -156,7 +164,7 @@ nav{
 	.cardClass{
 		margin-top: 10%;
 		p{
-			font-size: 150%;
+			font-size: 250%;
 		}
 	}
 	color: $primary-color; 
@@ -165,18 +173,18 @@ nav{
 	}
 	.titleCard{
 		color: $primary-color;
-		font-size: 250%;
+		font-size: 400%;
 	}
 	.iconCard{
 		background-color: lighten($primary-color, 50%);
 		padding: 5%;
 		border-radius: 2em;
 		color: $primary-color;
+		font-size: 400%;
 	}
 	img{
 		opacity: .2;
 		position: absolute;
 		height: 100%
 	}
-}
 }

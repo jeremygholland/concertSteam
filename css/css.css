@@ -6,7 +6,7 @@
   nav {
     background-color: #2980B9; }
     nav a:link, nav a:active, nav a:visited {
-      font-style: none; }
+      background-color: #2980B9; }
 
   .loRight {
     background-color: #409ad5; }
@@ -53,7 +53,7 @@
 
   .signUp {
     background-color: #2980B9;
-    color: #CCCCCC; }
+    color: white; }
 
   .signUp:active, .signUp:link, .signUp:hover, .signUp:visited {
     background-color: #2980B9; }
