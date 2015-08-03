@@ -1,4 +1,4 @@
-@media screen and (max-width: 1900px) {
+@media screen and (max-width: 1400px) {
   body {
     width: 100vw; }
 
@@ -26,7 +26,8 @@
     margin-top: 15%; }
 
   #subFront {
-    font-size: 150%; }
+    font-size: 150%;
+    text-shadow: 2px 2px 2px black; }
 
   #topDiv {
     background: url("../images/background1.jpg");
@@ -60,7 +61,7 @@
     .features #bottom {
       margin-top: 100%; }
     .features i, .features p {
-      color: #CCCCCC;
+      color: white;
       text-shadow: 1px 1px 1px black; }
     .features p {
       font-size: 200%; }
@@ -79,10 +80,11 @@
     font-size: 200%; }
 
   .footTop {
-    height: 30%; }
+    height: 20%; }
     .footTop p {
       text-align: center;
-      padding-top: 6%; }
+      padding-top: 5%;
+      padding-bottom: 5%; }
 
   .signUp {
     font-size: 250%;

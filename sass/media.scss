@@ -1,6 +1,6 @@
 $primary-color: #2980B9;
 $secondary-color:#f44336;
-@media screen and (max-width: 1900px) {
+@media screen and (max-width: 1400px) {
 
 
 body{
@@ -34,6 +34,7 @@ nav{
 }
 #subFront{
 	font-size: 150%;
+	text-shadow: 2px 2px 2px black;
 }
 
 
@@ -73,7 +74,7 @@ nav{
 		margin-top: 100%;
 	}
 	i, p{
-		color: #CCCCCC;
+		color: white;
 		text-shadow: 1px 1px 1px black;
 	}
 	p{
@@ -99,10 +100,11 @@ nav{
 }
 
 .footTop {
-	height: 30%;
+	height: 20%;
 	p{
 		text-align: center;
-		padding-top: 6%;
+		padding-top: 5%;
+		padding-bottom: 5%;
 	}
 }
 .signUp{

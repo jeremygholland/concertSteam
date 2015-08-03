@@ -1,6 +1,6 @@
 $primary-color: #2980B9;
 $secondary-color:#f44336;
-
+@media screen and (min-width: 1410px) {
 body{
 	width: 100vw;
 }
@@ -187,4 +187,5 @@ nav{
 		position: absolute;
 		height: 100%
 	}
+}
 }
