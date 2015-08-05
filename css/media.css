@@ -1,60 +1,156 @@
-/*
-Error: Invalid CSS after "	width": expected ";", was ": 100vw;"
-        on line 9 of sass/media.scss
+@media screen and (max-width: 1400px) {
+  body {
+    font-family: roboto, arial;
+    width: 100vw; }
 
-4: @media screen and (max-width: 1400px) {
-5: 
-6: 
-7: body{
-8: 	font-family: $font-primary
-9: 	width: 100vw;
-10: }
-11: .loTop {
-12: 	font-size: 180%;
-13: 	margin-left: 2%;
-14: }
+  .loTop {
+    font-size: 180%;
+    margin-left: 2%; }
 
-Backtrace:
-sass/media.scss:9
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:1162:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:1098:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:1093:in `tok!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:758:in `block in try_declaration'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:1138:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:1138:in `rethrow'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:763:in `try_declaration'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:693:in `declaration_or_ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:658:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:647:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:639:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:708:in `declaration_or_ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:658:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:647:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:639:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:401:in `media_directive'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:219:in `special_directive'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:194:in `directive'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:657:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:650:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:117:in `stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/scss/parser.rb:42:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/engine.rb:393:in `_to_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/engine.rb:368:in `_render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/engine.rb:285:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:328:in `block in watch'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/vendor/listen/lib/listen/listener.rb:252:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.14/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"	width\": expected \";\", was \": 100vw;\"\A         on line 9 of sass/media.scss\A \A 4: @media screen and (max-width: 1400px) {\A 5: \A 6: \A 7: body{\A 8: 	font-family: $font-primary\A 9: 	width: 100vw;\A 10: }\A 11: .loTop {\A 12: 	font-size: 180%;\A 13: 	margin-left: 2%;\A 14: }"; }
+  nav {
+    background-color: #2980B9; }
+    nav a:link, nav a:active, nav a:visited {
+      background-color: #2980B9; }
+
+  #logIn {
+    width: 100%; }
+
+  .loRight {
+    background-color: #409ad5;
+    width: 20%; }
+    .loRight a {
+      font-size: 120%; }
+
+  #titleFront {
+    font-size: 350%;
+    color: #164666;
+    margin-top: 15%; }
+
+  #subFront {
+    font-size: 150%;
+    text-shadow: 2px 2px 2px black; }
+
+  #topDiv {
+    background: url("../images/background1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    #topDiv .icon {
+      margin-top: 10%; }
+      #topDiv .icon i {
+        color: white;
+        opacity: 0.5; }
+      #topDiv .icon i:hover {
+        opacity: .75; }
+
+  #textTry {
+    text-align: center; }
+
+  .features {
+    margin-top: 25%; }
+    .features #bottom {
+      margin-top: 100%; }
+    .features i, .features p {
+      color: white;
+      text-shadow: 1px 1px 1px black; }
+    .features p {
+      font-size: 200%; }
+
+  .title {
+    color: white;
+    text-shadow: 1px 1px 1px black; }
+    .title p {
+      font-size: 110%; }
+    .title p, .title a {
+      margin-top: 15%; }
+
+  .foot, .footStuff, .footBot {
+    background-color: #2980B9;
+    color: white;
+    font-size: 200%; }
+
+  .footTop {
+    height: 20%; }
+    .footTop p {
+      text-align: center;
+      padding-top: 5%;
+      padding-bottom: 5%; }
+
+  .signUp {
+    font-size: 250%;
+    color: white;
+    background-color: #206695;
+    border-radius: 2em; }
+
+  .footBot {
+    margin-top: 20%; }
+
+  .botBut {
+    margin-bottom: 15%;
+    margin-top: 5%; }
+
+  .signUp:active, .signUp:link, .signUp:hover, .signUp:visited {
+    background-color: #2980B9; }
+
+  .bottomStuff {
+    background-color: #2980B9;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+
+  .botContent {
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    color: #2980B9; }
+    .botContent .cardClass {
+      margin-top: 10%; }
+      .botContent .cardClass p {
+        font-size: 150%; }
+    .botContent h4 {
+      color: #2980B9; }
+    .botContent .titleCard {
+      color: #2980B9;
+      font-size: 250%; }
+    .botContent .iconCard {
+      background-color: #e7f2fa;
+      padding: 5%;
+      border-radius: 2em;
+      color: #2980B9; }
+    .botContent img {
+      opacity: .3;
+      position: absolute;
+      height: 100%; } }
+
+/*# sourceMappingURL=media.css.map */
