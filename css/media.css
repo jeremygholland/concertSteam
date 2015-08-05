@@ -57,7 +57,7 @@
     text-align: center; }
 
   .features {
-    margin-top: 10%; }
+    margin-top: 25%; }
     .features #bottom {
       margin-top: 100%; }
     .features i, .features p {
@@ -148,7 +148,7 @@
       border-radius: 2em;
       color: #2980B9; }
     .botContent img {
-      opacity: .2;
+      opacity: .3;
       position: absolute;
       height: 100%; } }
 

@@ -2,6 +2,7 @@ $primary-color: #2980B9;
 $secondary-color:#f44336;
 @media screen and (min-width: 1410px) {
 body{
+	font-family: roboto;
 	width: 100vw;
 }
 .loTop {
@@ -103,11 +104,11 @@ nav{
 .footTop {
 	height: 30%;
 	p{
-		text-align: center;
-		padding-top: 6%;
+		vertical-align: middle;
 		font-size: 150%;
-		margin-left: 10%;
-		margin-right: 10%;
+		margin-left: 8%;
+		margin-right: 8%;
+		padding-top: 6%;
 	}
 }
 .signUp{
@@ -183,7 +184,7 @@ nav{
 		font-size: 400%;
 	}
 	img{
-		opacity: .2;
+		opacity: .3;
 		position: absolute;
 		height: 100%;
 	}

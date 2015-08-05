@@ -2,6 +2,9 @@ $primary-color: #2980B9;
 $secondary-color:#f44336;
 
 @media screen and (max-width: 750px) {
+	body{
+		font-family: helvetica; 
+	}
 .loTop {
 	font-size: 180%;
 	margin-left: 2%;
@@ -89,9 +92,8 @@ nav{
 }
 .footTop, {
 	height: 20%;
-	p{
-		margin-top: 5%;
-	}
+	vertical-align: middle;
+	margin-bottom: 5%;
 }
 
 .footBot{
@@ -156,20 +158,8 @@ nav{
 		color: $primary-color;
 	}
 	img{
-		opacity: .2;
+		opacity: .3;
 		position: absolute;
-		display: -webkit-box;
-  	display: -webkit-flex;
-  	display: -moz-box;
-  	display: -ms-flexbox;
-  	display: flex;
-	-webkit-box-orient: vertical;
-  	-webkit-box-direction: normal;
-  	-webkit-flex-direction: column;
-  	-moz-box-orient: vertical;
-  	-moz-box-direction: normal;
-  	-ms-flex-direction: column;
-  	flex-direction: column;
 	height:100%;
 	}
 }
