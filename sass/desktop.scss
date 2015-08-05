@@ -1,8 +1,9 @@
 $primary-color: #2980B9;
 $secondary-color:#f44336;
+$font-primary: roboto, arial;
 @media screen and (min-width: 1410px) {
 body{
-	font-family: roboto;
+	font-family: $font-primary;
 	width: 100vw;
 }
 .loTop {

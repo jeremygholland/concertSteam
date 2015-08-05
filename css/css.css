@@ -1,6 +1,6 @@
 @media screen and (max-width: 750px) {
   body {
-    font-family: helvetica; }
+    font-family: roboto, arial; }
 
   .loTop {
     font-size: 180%;
