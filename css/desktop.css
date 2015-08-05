@@ -33,7 +33,6 @@
   #topDiv {
     background: url("../images/background1.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;

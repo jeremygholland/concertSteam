@@ -1,6 +1,4 @@
-$primary-color: #2980B9;
-$secondary-color:#f44336;
-$font-primary: roboto, arial;
+ @import 'variables';
 
 
 @media screen and (max-width: 750px) {
@@ -25,7 +23,7 @@ nav{
 	color: white;
 	margin-top: 10%;
 	font-size: 250%;
-	text-shadow: 1px 1px 1px black;
+	text-shadow: $smallShadow;
 }
 #subFront{
 	font-size: 110%;
@@ -34,18 +32,7 @@ nav{
   #topDiv{
 	background: url("../images/background1.jpg") ;
 	background-repeat: no-repeat;
-	display: -webkit-box;
-  	display: -webkit-flex;
-  	display: -moz-box;
-  	display: -ms-flexbox;
-  	display: flex;
-	-webkit-box-orient: vertical;
-  	-webkit-box-direction: normal;
-  	-webkit-flex-direction: column;
-  	-moz-box-orient: vertical;
-  	-moz-box-direction: normal;
-  	-ms-flex-direction: column;
-  	flex-direction: column;
+	@include flexbox;
 	.icon{
 		margin-top: 10%;
 		i{
@@ -62,7 +49,7 @@ nav{
 	}
 	i, p{
 		color: white;
-		text-shadow: 1px 1px 1px black;
+		text-shadow: $smallShadow;
 	}
 	p{
 		font-size: 130%;
@@ -79,7 +66,7 @@ nav{
 
 .title{
 	color: white;
-	text-shadow: 1px 1px 1px black;
+	text-shadow: $smallShadow;
 	p{
 		font-size: 110%;
 	}
@@ -113,35 +100,12 @@ nav{
 .bottomStuff{
 	opacity: 1;
 	background-color: $primary-color;
-	display: -webkit-box;
-  	display: -webkit-flex;
-  	display: -moz-box;
-  	display: -ms-flexbox;
-  	display: flex;
-	-webkit-box-orient: vertical;
-  	-webkit-box-direction: normal;
-  	-webkit-flex-direction: column;
-  	-moz-box-orient: vertical;
-  	-moz-box-direction: normal;
-  	-ms-flex-direction: column;
-  	flex-direction: column;
-
+	@include flexbox;
 }
 
 .botContent{
 	overflow: hidden;
-	display: -webkit-box;
-  	display: -webkit-flex;
-  	display: -moz-box;
-  	display: -ms-flexbox;
-  	display: flex;
-	-webkit-box-orient: vertical;
-  	-webkit-box-direction: normal;
-  	-webkit-flex-direction: column;
-  	-moz-box-orient: vertical;
-  	-moz-box-direction: normal;
-  	-ms-flex-direction: column;
-  	flex-direction: column;
+	@include flexbox;
 	position: relative;
 	.cardClass{
 		margin-top: 10%;
