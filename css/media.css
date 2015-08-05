@@ -78,14 +78,14 @@
   .foot, .footStuff, .footBot {
     background-color: #2980B9;
     color: white;
-    font-size: 200%; }
+    font-size: 180%; }
 
   .footTop {
-    height: 20%; }
+    height: 30%; }
     .footTop p {
       text-align: center;
-      padding-top: 5%;
-      padding-bottom: 5%; }
+      padding-top: 7%;
+      padding-bottom: 7%; }
 
   .signUp {
     font-size: 250%;
