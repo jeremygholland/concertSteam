@@ -1,133 +1,126 @@
  @import 'variables';
-
-
-@media screen and (max-width: 750px) {
-	body{
-		font-family: $font-primary; 
-	}
-.loTop {
-	font-size: 180%;
-	margin-left: 2%;
-}
-nav{
-	background-color: $primary-color;
-	a:link, a:active, a:visited{
-		background-color: $primary-color;
-	}
-}
-.loRight{
-	background-color: lighten($primary-color, 10%);
-}
-
-#titleFront{
-	color: white;
-	margin-top: 10%;
-	font-size: 250%;
-	text-shadow: $smallShadow;
-}
-#subFront{
-	font-size: 110%;
-}
-
-  #topDiv{
-	background: url("../images/background1.jpg") ;
-	background-repeat: no-repeat;
-	@include flexbox;
-	.icon{
-		margin-top: 10%;
-		i{
-			color: white;
-			opacity: .5
-		}
-	}
-}
-
-.features{
-	margin-top: 110%;
-	#bottom{
-		margin-top: 100%;
-	}
-	i, p{
-		color: white;
-		text-shadow: $smallShadow;
-	}
-	p{
-		font-size: 130%;
-	}
-}
-
-.signUp{
-	background-color: $primary-color;
-	color: white;
-}
-.signUp:active, .signUp:link, .signUp:hover, .signUp:visited{
-	background-color: $primary-color;
-}
-
-.title{
-	color: white;
-	text-shadow: $smallShadow;
-	p{
-		font-size: 110%;
-	}
-	p, a{
-		margin-top: 15%;
-	}
-}
-.foot, .footStuff{
-	background-color: $primary-color;
-	color: white;
-	font-size: 140%;
-}
-.footTop, {
-	height: 20%;
-	vertical-align: middle;
-	padding-top: 5%;
-
-}
-
-.footBot{
-	color: white;
-	font-size: 140%;
-	margin-top: 10%;
-}
-.signUp{
-	font-size: 100%;
-}
-.botBut{
-	margin-bottom: 15%;
-	margin-top: 5%;
-}
-.bottomStuff{
-	opacity: 1;
-	background-color: $primary-color;
-	@include flexbox;
-}
-
-.botContent{
-	overflow: hidden;
-	@include flexbox;
-	position: relative;
-	.cardClass{
-		margin-top: 10%;
-	}
-	color: $primary-color; 
-	h4{
-		color: $primary-color;
-	}
-	.titleCard{
-		color: $primary-color;
-	}
-	.iconCard{
-		background-color: lighten($primary-color, 50%);
-		padding: 5%;
-		border-radius: 2em;
-		color: $primary-color;
-	}
-	img{
-		opacity: .3;
-		position: absolute;
-	height:100%;
-	}
-}
-}
+ @media screen and (max-width: 750px) {
+     body {
+         font-family: $font-primary;
+     }
+     .logoTop {
+         font-size: 180%;
+         margin-left: 2%;
+     }
+     nav {
+         background-color: $primary-color;
+         a:link,
+         a:active,
+         a:visited {
+             background-color: $primary-color;
+         }
+     }
+     .loRight {
+         background-color: lighten($primary-color, 10%);
+     }
+     #titleFront {
+         color: white;
+         margin-top: 10%;
+         font-size: 250%;
+         text-shadow: $smallShadow;
+     }
+     #subFront {
+         font-size: 110%;
+     }
+     #topDiv {
+         background: url("../images/background1.jpg");
+         background-repeat: no-repeat;
+         @include flexbox;
+         .icon {
+             margin-top: 10%;
+             i {
+                 color: white;
+                 opacity: .5
+             }
+         }
+     }
+     .features {
+         margin-top: 110%;
+         #bottom {
+             margin-top: 100%;
+         }
+         i,
+         p {
+             color: white;
+             text-shadow: $smallShadow;
+         }
+         p {
+             font-size: 130%;
+         }
+     }
+     .signUp {
+         background-color: $primary-color;
+         color: white;
+     }
+     .signUp:active,
+     .signUp:link,
+     .signUp:hover,
+     .signUp:visited {
+         background-color: $primary-color;
+     }
+     .title {
+         color: white;
+         text-shadow: $smallShadow;
+         p {
+             font-size: 110%;
+         }
+         p,
+         a {
+             margin-top: 15%;
+         }
+     }
+     .footerTop
+     {
+         height: 20%;
+         vertical-align: middle;
+         padding-top: 5%;
+     }
+     .footerBot {
+         color: white;
+         font-size: 140%;
+         margin-top: 10%;
+     }
+     .signUp {
+         font-size: 100%;
+     }
+     .bottomButton {
+         margin-bottom: 15%;
+         margin-top: 5%;
+     }
+     .finalSection {
+         opacity: 1;
+         background-color: $primary-color;
+         @include flexbox;
+     }
+     .botContent {
+         overflow: hidden;
+         @include flexbox;
+         position: relative;
+         .cardClass {
+             margin-top: 10%;
+         }
+         color: $primary-color;
+         h4 {
+             color: $primary-color;
+         }
+         .titleCard {
+             color: $primary-color;
+         }
+         .iconCard {
+             background-color: lighten($primary-color, 50%);
+             padding: 5%;
+             border-radius: 2em;
+             color: $primary-color;
+         }
+         img {
+             opacity: .3;
+             position: absolute;
+             height: 100%;
+         }
+     }
+ }

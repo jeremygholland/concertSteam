@@ -1,151 +1,146 @@
  @import 'variables';
-@media screen and (max-width: 1400px) {
-
-
-body{
-	font-family: $font-primary;
-	width: 100vw;
-}
-.loTop {
-	font-size: 180%;
-	margin-left: 2%;
-}
-nav{
-	background-color: $primary-color;
-	a:link, a:active, a:visited{
-		background-color: $primary-color;
-	}
-}
-#logIn{
-	width: 100%;
-}
-.loRight{
-	background-color: lighten($primary-color, 10%);
-	width: 20%;
-	a{
-		font-size: 120%;
-	}
-}
-
-#titleFront{
-	font-size: 350%;
-	color: darken($primary-color, 20%);
-	margin-top: 15%;
-}
-#subFront{
-	font-size: 150%;
-	text-shadow: $textShadow;
-}
-
-
-  #topDiv{
-	background: url("../images/background1.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	@include flexbox;
-	.icon{
-		margin-top: 10%;
-		i{
-			color: white;
-			opacity: .5
-		}
-		i:hover{
-			opacity: .75;
-		}
-	}
-}
-#textTry{
-	text-align: center;
-}
-.features{
-	margin-top: 25%;
-	#bottom{
-		margin-top: 100%;
-	}
-	i, p{
-		color: white;
-		text-shadow: $smallShadow;
-	}
-	p{
-		font-size: 200%;
-	}
-}
-
-
-.title{
-	color: white;
-	text-shadow: $smallShadow;
-	p{
-		font-size: 110%;
-	}
-	p, a{
-		margin-top: 15%;
-	}
-}
-.foot, .footStuff, .footBot{
-	background-color: $primary-color;
-	color: white;
-	font-size: 180%;
-}
-
-.footTop {
-	height: 30%;
-	p{
-		text-align: center;
-		padding-top: 7%;
-		padding-bottom: 7%;
-	}
-}
-.signUp{
-	font-size: 250%;
-	color: white;
-	background-color: #206695;
-	border-radius: 2em;
-}
-.footBot{
-	margin-top: 20%;
-}
-.botBut{
-	margin-bottom: 15%;
-	margin-top: 5%;
-}
-.signUp:active, .signUp:link, .signUp:hover, .signUp:visited{
-	background-color: $primary-color;
-}
-.bottomStuff{
-	background-color: $primary-color;
-	@include flexbox;
-
-}
-
-.botContent{
-	overflow: hidden;
-	@include flexbox;
-	position: relative;
-	.cardClass{
-		margin-top: 10%;
-		p{
-			font-size: 150%;
-		}
-	}
-	color: $primary-color; 
-	h4{
-		color: $primary-color;
-	}
-	.titleCard{
-		color: $primary-color;
-		font-size: 250%;
-	}
-	.iconCard{
-		background-color: lighten($primary-color, 50%);
-		padding: 5%;
-		border-radius: 2em;
-		color: $primary-color;
-	}
-	img{
-		opacity: .3;
-		position: absolute;
-		height: 100%;
-	}
-}
-}
+ @media screen and (max-width: 1400px) {
+     body {
+         font-family: $font-primary;
+         width: 100vw;
+     }
+     .logoTop {
+         font-size: 180%;
+         margin-left: 2%;
+     }
+     nav {
+         background-color: $primary-color;
+         a:link,
+         a:active,
+         a:visited {
+             background-color: $primary-color;
+         }
+     }
+     #logIn {
+         width: 100%;
+     }
+     .loRight {
+         background-color: lighten($primary-color, 10%);
+         width: 20%;
+         a {
+             font-size: 120%;
+         }
+     }
+     #titleFront {
+         font-size: 350%;
+         color: darken($primary-color, 20%);
+         margin-top: 15%;
+     }
+     #subFront {
+         font-size: 150%;
+         text-shadow: $textShadow;
+     }
+     #topDiv {
+         background: url("../images/background1.jpg");
+         background-size: cover;
+         background-repeat: no-repeat;
+         @include flexbox;
+         .icon {
+             margin-top: 10%;
+             i {
+                 color: white;
+                 opacity: .5
+             }
+             i:hover {
+                 opacity: .75;
+             }
+         }
+     }
+     #textTry {
+         text-align: center;
+     }
+     .features {
+         margin-top: 25%;
+         #bottom {
+             margin-top: 100%;
+         }
+         i,
+         p {
+             color: white;
+             text-shadow: $smallShadow;
+         }
+         p {
+             font-size: 200%;
+         }
+     }
+     .title {
+         color: white;
+         text-shadow: $smallShadow;
+         p {
+             font-size: 110%;
+         }
+         p,
+         a {
+             margin-top: 15%;
+         }
+     }
+     .footerBot {
+         background-color: $primary-color;
+         color: white;
+         font-size: 180%;
+         margin-top: 20%;
+     }
+     .footerTop {
+         height: 30%;
+         p {
+             text-align: center;
+             padding-top: 7%;
+             padding-bottom: 7%;
+         }
+     }
+     .signUp {
+         font-size: 250%;
+         color: white;
+         background-color: #206695;
+         border-radius: 2em;
+     }
+     .botBut {
+         margin-bottom: 15%;
+         margin-top: 5%;
+     }
+     .signUp:active,
+     .signUp:link,
+     .signUp:hover,
+     .signUp:visited {
+         background-color: $primary-color;
+     }
+     .finalSection {
+         background-color: $primary-color;
+         @include flexbox;
+     }
+     .botContent {
+         overflow: hidden;
+         @include flexbox;
+         position: relative;
+         .cardClass {
+             margin-top: 10%;
+             p {
+                 font-size: 150%;
+             }
+         }
+         color: $primary-color;
+         h4 {
+             color: $primary-color;
+         }
+         .titleCard {
+             color: $primary-color;
+             font-size: 250%;
+         }
+         .iconCard {
+             background-color: lighten($primary-color, 50%);
+             padding: 5%;
+             border-radius: 2em;
+             color: $primary-color;
+         }
+         img {
+             opacity: .3;
+             position: absolute;
+             height: 100%;
+         }
+     }
+ }
